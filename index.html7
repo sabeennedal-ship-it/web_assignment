@@ -1,0 +1,60 @@
+<!-- ========================= -->
+<!-- PROJECT 2: CSS Margins -->
+<!-- ========================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Margins - University of Jordan</title>
+<style>
+
+body{
+    font-family: Arial;
+    background:#eef;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    background:darkblue;
+    color:white;
+    padding:15px;
+}
+
+.box{
+    width:60%;
+    background:white;
+    border:2px solid black;
+    padding:20px;
+}
+
+.margin1{
+    margin:10px;
+}
+
+.margin2{
+    margin:30px;
+}
+
+.margin3{
+    margin:50px auto;
+}
+
+.margin4{
+    margin-top:40px;
+    margin-left:100px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>CSS Margins Examples</h1>
+
+<div class="box margin1">Margin 10px</div>
+<div class="box margin2">Margin 30px</div>
+<div class="box margin3">Centered with auto margin</div>
+<div class="box margin4">Custom top and left margin</div>
+
+</body>
+</html>
