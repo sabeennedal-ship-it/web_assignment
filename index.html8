@@ -1,0 +1,62 @@
+<!-- ========================= -->
+<!-- PROJECT 3: CSS Padding -->
+<!-- ========================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Padding - University of Jordan</title>
+<style>
+
+body{
+    font-family: Arial;
+    background:#fff8dc;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+    background:green;
+    color:white;
+    padding:20px;
+}
+
+.box{
+    width:70%;
+    margin:20px auto;
+    border:2px solid black;
+    background:white;
+}
+
+.padding1{
+    padding:10px;
+}
+
+.padding2{
+    padding:30px;
+}
+
+.padding3{
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.padding4{
+    padding:10px 30px 50px 70px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>CSS Padding Examples</h1>
+
+<div class="box padding1">Padding 10px</div>
+<div class="box padding2">Padding 30px</div>
+<div class="box padding3">Different top/bottom padding</div>
+<div class="box padding4">Padding in four directions</div>
+
+</body>
+</html>
