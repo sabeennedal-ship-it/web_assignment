@@ -30,14 +30,16 @@ body{
     top:0;
 }
 
+
 .navbar a{
     color:white;
     text-decoration:none;
     padding:14px 20px;
     display:inline-block;
     font-size:18px;
+    
 }
-
+ 
 .navbar a:hover{
     background-color:white;
     color:#0b6623;
